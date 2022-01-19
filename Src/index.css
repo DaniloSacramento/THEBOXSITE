@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+:root{
+    --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+
+    --clr-green-dark: #049A40;
+    --clr-green-light: #0BF96A;
+    --clr-pink-dark: #e10bf9;
+    --clr-pink-light: #F3A0FB
+    --clr-white:#F5F5F5 }
+
+    body{
+        background-color: var(--clr-white);
+        font-family: var(--ff-primary);
+
+        
+    }
+    a,
+    a:hover,
+    a:active,
+    a:Link,
+    a:visited {
+        text-decoration: none;
+        color: black; 
+    }
+    .menu-bg{
+        background-color: var(--clr-green-light);
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+    }
+    .logo__menu{
+        margin:25px;
+        display: flex;
+        font-size: 30px;
+        
+        
+    }
+    .nav-list{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .nav_link{
+        padding: 20px 10px;
+
+    }
+
+    .intro{
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+    hr {
+        border: none;
+        background-color: var(--clr-pink-dark);
+        height: 2px;
+        width: 160px;
+        margin: 20px auto;
+    }
+
+    p{
+        line-height: 21.82px;
+        padding: 0 10px;
+
+    }
+    .section_titulo{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 10px;
+
+    }
+    .somos{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .somos-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .somos-texto{
+        flex: 6 1 160px;
+
+    } 
+    .img__c{
+        flex: 1 1 350px;
+        
+    }
+    img{
+        display: block;
+        max-width: 100%;
+    }
+    .servi-3{
+        font-size: 6rem;
+    }
+    .servi{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .servi-c{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .servi-2{
+        width: 280px;
+        margin: 0 20px;
+        
+    }
+
+    
