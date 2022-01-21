@@ -33,7 +33,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        max-width: 1000px;
+        max-width: 960px;
         margin: 0 auto;
         flex-wrap: wrap;
 
@@ -82,7 +82,7 @@
 
     }
     .somos{
-        max-width: 1000px;
+        max-width: 960px;
         margin: 0 auto;
     }
     .somos-container{
@@ -105,10 +105,13 @@
     }
     .servi-3{
         font-size: 6rem;
+        
     }
     .servi{
-        max-width: 960px;
-        margin: 0 auto;
+       max-width: 960px;
+       margin: 0 auto;
+       
+
     }
     .servi-c{
         display: flex;
@@ -121,5 +124,17 @@
         margin: 0 20px;
         
     }
+    
+
+   
+    .todo{
+        display: flex;
+        justify-content: center;
+        width: 1090px;
+    }
+    section{
+        display: flex;
+    }
+
 
     
